@@ -1,0 +1,32 @@
+.hideInfo {
+    display: none;
+}
+
+.showInfo {
+    display: contents;
+}
+
+.moveUp {
+    fill: #fff;
+    stroke: gold;
+    stroke-width: 0.5px;
+    animation-name: up;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+.moveDown {
+    fill: #fff;
+    stroke: #000;
+    stroke-width: 0.5px
+}
+
+@keyframes up {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}

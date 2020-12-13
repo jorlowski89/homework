@@ -1,0 +1,15 @@
+.move {
+    animation-name: move;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    animation-timing-function: linear;
+}
+
+
+@keyframes move {
+    0% {
+        transform: rotate(-360deg);
+    }
+
+}
